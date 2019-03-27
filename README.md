@@ -12,6 +12,8 @@ These benchmarks seek to answer the question: are PostgreSQL roles and row-level
 
 ## Approach
 
+Use [Nancy](https://gitlab.com/postgres.ai/nancy) to run the following experiments:
+
 1. Determine **User Role** count behavior characteristics for tables of 1 million and 10 million records.
 2. Determine **Group Role** inheritence depth characteristics for a table of 1 million records and 100,000 **User Roles**.
 3. Increase complexity of queries to include nested views and joins.
